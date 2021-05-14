@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>07 FLEX</title>
+</head>
+<style>
+    body {
+        margin: 8px;
+    }
+    header {
+        width: 100%;
+        height: auto;
+        background-color: #f0efeb;
+    }
+    header img {
+        width: 60px;
+        padding: 20px;
+    }
+    nav {
+        height: 25px;
+        background-color: #f3722c;
+    }
+    footer {
+        position: fixed;
+        bottom: 0%;
+        background-color: #f9844a;
+        width: 100%;
+        height: 20px;
+        text-align: center;
+    }
+    .flex-container {
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: #9d4edd;
+    }
+    .flex-container > div {
+        background-color: #240046;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 25px;
+    }
+</style>
+
+<body>
+    <header>
+        <img src="./vectores/Rocket.svg" alt="Cohete Vectorial">
+    </header>
+    <nav>Franja de navegación, Menú y Noticias</nav>
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+    <footer>Footer pie de pagina web</footer>
+</body>
+</html>
